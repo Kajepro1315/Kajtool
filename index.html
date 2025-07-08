@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Logowanie</title>
+    <link
+      rel="website icon"
+      type="png"
+      href="https://cdn.glitch.global/55e1e983-6cbf-455d-8500-62ecb41a53c3/Favicon.png?v=1739865909850"
+    />
+    <link rel="stylesheet" href="/Style.css" />
+    <script src="/Script.js" defer></script>
+</head>
+<body id="bodyLog">
+    <!--logowanie-->
+    <div id="logowanie">
+        <div id="logowanieRozmazane">
+            
+            <label class="logowanieLabel" id="loginLabel1ID">Login</label><br><br>
+            <input maxlength="19" placeholder="Wpisz login" value="" type="text" id="loginID" class="logowanieInput">
+            <label class="logowanieLabel">Hasło</label><br><br>
+            <input maxlength="17" placeholder="Wpisz hasło" value="" type="password" id="passwordID" class="logowanieInput"> 
+            <input id="HidePassword" type="checkbox" onclick="showPassword()">
+            <br>
+            <button id="ZalogujButton" onclick="logowanieFun()" >Zaloguj</button>
+        </div>
+    </div>
+</body>
+</html>
