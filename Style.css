@@ -136,10 +136,11 @@ body {
 }
 .sidebar_menu .menu li {
     margin-top: 6px;
-    padding: 14px 20px 14px 0px;
+    padding: 14px 20px 14px 10px;
     transition: all 0.3s linear;
-    left: -5px;
+    left: -15px;
 }
+
  
 .sidebar_menu .menu a {
     color: #fff;
