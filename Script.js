@@ -54,7 +54,7 @@ function logowanieFun() {
 // refresh
 
 function refresh() {
-    location.href="https://kajtool.glitch.me/";
+    location.href="index.html";
     console.log("Odświeżono");
 
     document.title = "Logowanie";
